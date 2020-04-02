@@ -9,4 +9,4 @@ class QCompiler(object):
             mod_path = mod_path[:-1]
         if not os.path.exists("build/"):
             os.makedirs("build/")
-        create_archive(source=mod_path, target=f"build/{name}", compressed=True)
+        create_archive(source=mod_path, target=f"build/{name}", compressed=compressed)
