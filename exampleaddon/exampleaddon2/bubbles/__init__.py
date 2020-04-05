@@ -2,7 +2,7 @@ from typing import List
 
 from qbubbles.bubbles import Bubble
 
-from python.bubbles.exampleBubble import ExampleBubble
+from .exampleBubble import ExampleBubble
 
 BUBBLES: List[Bubble] = []
 
